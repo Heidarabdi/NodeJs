@@ -103,6 +103,8 @@ app.get('/', (req, res) => {
         name : 'Heidar Ali',
     };
 
+    // hello
+
     res.render('/register', data);
 });
 
